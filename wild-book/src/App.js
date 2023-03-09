@@ -1,5 +1,5 @@
 import "./App.css";
-import Wilder from "./components/Wilder";
+import Wilder from "./components/wilder";
 
 const wildersData = [
   {
@@ -36,13 +36,12 @@ const wildersData = [
   },
 ];
 
-const App = () => {
-  console.log("hello");
+function App() {
   return (
-    <div>
+    <div className="App">
       <header>
         <div className="container">
-          <h1>Wilders Book</h1>
+          <h1>Wilder Book</h1>
         </div>
       </header>
       <main className="container">
@@ -54,12 +53,12 @@ const App = () => {
         </section>
       </main>
       <footer>
-        <div className="container">
-          <p>&copy; 2022 Wild Code School</p>
+        <div>
+          <p>&copy; 2022 Wild code school</p>
         </div>
       </footer>
     </div>
   );
-};
+}
 
 export default App;

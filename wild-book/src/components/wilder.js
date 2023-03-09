@@ -15,7 +15,7 @@ export default function Wilder({ name, skills }) {
       <h4>Wild Skills</h4>
       <ul className="skills">
         {skills.map((skill) => (
-          <Skill name={skill.title} votes={skill.votes} />
+          <Skill name={skill.name} votes={skill.votes} />
         ))}
       </ul>
     </article>
